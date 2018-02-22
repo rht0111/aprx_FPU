@@ -9,3 +9,13 @@
  *                           
  */
 
+module aprx_add 
+	(input logic [size-1:0] a, [size-1:0] b,
+	output logic [size-1:0] c
+		);
+
+
+
+
+
+endmodule
