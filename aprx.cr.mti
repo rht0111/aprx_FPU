@@ -1,0 +1,13 @@
+C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv {0 {vlog -work work -sv -stats=none C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module aprx_add
+** Error: C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv(15): (vlog-2730) Undefined variable: 'size'.
+
+** Error (suppressible): C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv(15): (vlog-2388) 'a' already declared in this scope (aprx_add).
+
+** Error (suppressible): C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv(15): (vlog-2388) 'b' already declared in this scope (aprx_add).
+
+** Error: C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv(15): Identifier must be declared with a port mode: a.
+** Error: C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv(15): Identifier must be declared with a port mode: b.
+
+} {4.0 5.0 10.0 12.0} {}}
