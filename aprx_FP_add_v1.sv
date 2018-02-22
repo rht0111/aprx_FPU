@@ -11,7 +11,7 @@
 
 module aprx_add 
 	(input logic [31:0] a, [31:0] b,
-	input int mode, //mode can be enabled to get specific results
+	input int mode, // both modes can work independently and simultaneously
 	output logic [15:0] c16,
 	output logic [7:0] c8
 		);
@@ -19,14 +19,10 @@ module aprx_add
 logic sign_a, sign_b, sign_c;
 
 logic [7:0] exp_a, exp_b, exp_c, temp16;
-// logic [8:0] texp16;
 logic [4:0] exp_a8, exp_b8, exp_c8, temp8;
-// logic [5:0] texp8;
 
 logic [6:0] mant16_a, mant16_b, mant16_c;
-// logic [7:0] tmant16;
 logic [1:0] mant8_a, mant8_b, mant8_c;
-// logic [2:0] tmant16;
 
 assign sign_a = a [31];
 assign sign_b = b [31];
