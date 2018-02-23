@@ -104,7 +104,6 @@ endmodule
 // c16 = 16'hFF00;
 // c8  =  8'h82;
 
-// exponent difference is 0.8%
 // mantissa is not correct
 // casting from 32-bit to either 16-bit or 8-bit does not work correctly
 
