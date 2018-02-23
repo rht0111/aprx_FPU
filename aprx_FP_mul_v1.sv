@@ -11,7 +11,7 @@
 
 module aprx_mul
 	(input logic [31:0] a , [31:0] b,
-	input mode, // both modes can work independently and simultaneously
+	input mode,
 	output [15:0] c16,
 	output [7:0] c8
 		);
@@ -89,6 +89,10 @@ assign c8[7] = sign_c;
 assign c8[6:2] = exp_c8;
 assign c8[1:0] = mant_c8[1:0];
 
+mult mul11 (
+	.a(a));
+
+
 endmodule
 
 //simulation results
@@ -99,5 +103,9 @@ endmodule
 // c32 = 32'hFE810623;
 // c16 = 16'hFF00;
 // c8  =  8'h82;
+
+// exponent difference is 0.8%
+// mantissa is not correct
+// casting from 32-bit to either 16-bit or 8-bit does not works correctly
 
 // dynamic range or precision are reduced before any add operations

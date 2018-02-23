@@ -93,6 +93,6 @@ endmodule
 
 // c32 = 32'h42610000;
 // c16 = 16'h4221;
-// c8  = 8'h41;
+// c8  =  8'h41;
 
 // dynamic range or precision are reduced before any add operations
