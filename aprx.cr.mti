@@ -2,7 +2,14 @@ C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_define.sv {0 {vlog -work work
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 ** Error: End of source encountered before `endif directive closing region starting at file 'C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_define.sv' line 16.
 
-} {3.0 4.0} {}} C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FPU_v1.sv {1 {vlog -work work -sv -stats=none C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FPU_v1.sv
+} {3.0 4.0} {}} C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv {1 {vlog -work work -sv -stats=none C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FP_add_v1.sv
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module aprx_add
+
+Top level modules:
+	aprx_add
+
+} {} {}} C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FPU_v1.sv {1 {vlog -work work -sv -stats=none C:/Users/prasad/Documents/git_rht0111/apx_FPU/aprx_FPU_v1.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 
 } {} {}}

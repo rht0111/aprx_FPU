@@ -106,6 +106,6 @@ endmodule
 
 // exponent difference is 0.8%
 // mantissa is not correct
-// casting from 32-bit to either 16-bit or 8-bit does not works correctly
+// casting from 32-bit to either 16-bit or 8-bit does not work correctly
 
 // dynamic range or precision are reduced before any add operations
